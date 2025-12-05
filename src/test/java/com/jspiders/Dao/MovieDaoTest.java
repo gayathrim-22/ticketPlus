@@ -46,7 +46,7 @@ public class MovieDaoTest {
             for (MovieEntity movieEntity:movieByStatus) {
                 System.out.println(movieEntity);
             }
-            System.out.println("Test passed");
+            System.out.println("Test passed successfully");
         } catch (Exception e) {
             e.printStackTrace();
         }
